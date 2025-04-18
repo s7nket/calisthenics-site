@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+
+}
+
+body {
+    background-color: #c5daf4;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;  
+    padding: 20px 8%;
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    justify-content: space-between; /* Distributes space between elements */
+    transition: all 0.50s ease;
+    background-image: url("images/coolbackgrounds-main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 28px;
+    font-weight: 650;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: inline-block;
+    margin: 0 35px;
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .50s ease;
+}
+
+.nav-list a:hover {
+    transform: scale(1.1); /* Makes the link slightly bigger */
+    color: #fff; /* Optional: Change color on hover */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.nav-right {
+    display: flex; /* Ensures .nav-right and #menu-icon are in a single line */
+    align-items: center; /* Aligns items vertically */
+}
+
+.nav-right a {
+    background-color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-right a:hover {
+    background-color: #4a4e69;
+    color: white;
+    transition: all .50s ease;
+}
+
+#menu-icon {
+    display: none;
+    margin-right: 150px; /* Adds spacing between .nav-right a and #menu-icon */
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-content {
+    padding:180px;
+    text-align: center;
+    color:#fff;
+    font-weight: 300;
+    background-image: url("images/coolbackgrounds-main.png");
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+
+.intro-section {
+    padding: 180px;
+    text-align: left;
+    font-weight: 300;    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(120, 163, 255, 1) 38%, rgba(0, 30, 255, 1) 84%);
+
+}
+
+.why-calisthenics {
+    padding: 180px;
+    text-align: left;
+    color:#fff;
+    font-weight: 300;
+    background-image: url("images/coolbackgrounds-mindset.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mindset {
+    padding: 180px;
+    text-align: left;
+    color:#fff;
+    font-weight: 300;
+    text-align: right;
+    background-image: url("images/coolbackgrounds-intro.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    padding: 3rem 2rem ;
+    text-align: right;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+    background-image: url("images/coolbackgrounds-footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
