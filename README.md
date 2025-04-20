@@ -26,7 +26,7 @@ Welcome to my Calisthenics Training project! This website is designed to help fi
 
 The project is under active development. Stay tuned for regular updates and new features!
 
-## Preview
+## 🖼️ Preview
 ![Screenshot 2025-04-20 082523](https://github.com/user-attachments/assets/8e62d0f7-bda3-4e71-ba65-e2cffe3fa1f8)
 
 ## 📝 License
