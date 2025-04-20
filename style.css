@@ -5,13 +5,14 @@
     text-decoration: none;
     list-style: none;
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
 
 }
 
 body {
     background-color: #c5daf4;
     font-size: 18px;
+    
 }
 
 .logo img {
@@ -30,9 +31,9 @@ header {
     align-items: center; /* Ensures vertical alignment */
     justify-content: space-between; /* Distributes space between elements */
     transition: all 0.50s ease;
-    background-image: url("images/coolbackgrounds-main.png");
+    /* background-image: url("images/coolbackgrounds-main.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .logo {
@@ -40,7 +41,7 @@ header {
     align-items: center;
     color:black;
     font-size: 28px;
-    font-weight: 650;
+    font-weight: 700;
 }
 
 .nav-list {
@@ -94,18 +95,26 @@ header {
     text-align: center;
     color:#fff;
     font-weight: 300;
-    background-image: url("images/coolbackgrounds-main.png");
+    /* background-image: url("images/coolbackgrounds-main.png");
     background-size: cover;
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
+    background-position: center; Centers the image
+    background-repeat: no-repeat; */
+}
+
+.main-content h2 {  
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .intro-section {
     padding: 180px;
     text-align: left;
-    font-weight: 300;    background: #ffffff;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(120, 163, 255, 1) 38%, rgba(0, 30, 255, 1) 84%);
-
+    font-weight: 300;
+    background-image: url("images/coolbackgrounds-intro3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .why-calisthenics {
@@ -113,7 +122,7 @@ header {
     text-align: left;
     color:#fff;
     font-weight: 300;
-    background-image: url("images/coolbackgrounds-mindset.png");
+    background-image: url("images/coolbackgrounds-intro2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,13 +142,13 @@ header {
 }
 
 .footer {
-    padding: 3rem 2rem ;
+    padding: 180px;
     color: #fff;
     font-weight: 300;
     font-size: 1.1rem;
     text-align: center;
-    background-image: url("images/coolbackgrounds-footer.png");
+    background-image: url("images/coolbackgrounds-intro4.png");
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
 }
