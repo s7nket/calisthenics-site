@@ -152,3 +152,108 @@ header {
     background-size:cover;
     background-repeat: no-repeat;
 }
+
+@media (max-width:700px) {
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; /* Stack elements vertically */
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    .nav-list a{
+        margin: 0 5px;
+        font-size: 10px;
+        display: none;
+    }
+
+    #menu-icon {
+        display: flex;
+        flex-direction: row; 
+        margin-right: 0px;/* Show the menu icon on smaller screens */
+    }
+
+    .main-content{
+        padding:130px 30px ;
+    }
+
+    .intro-section{
+        padding:50px 50px ;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+
+    .why-calisthenics{
+        padding:50px 50px ;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+
+    .mindset{
+        padding:50px 50px ;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+
+    .footer {
+        padding:50px 50px ;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+}
+
+@media (min-width:700px) and (max-width:1200px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    body {
+        font-size: 18px;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-list a {
+        margin: 0 20px;
+        font-size: 16px;
+    }
+
+    .intro-section {
+        padding: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .why-calisthenics {
+        padding: 100px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }  
+    .mindset {
+        padding: 100px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }   
+
+    .footer {
+        padding: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
